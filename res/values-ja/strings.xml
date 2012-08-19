@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">キーマップの追加設定 （日本語）</string>
+    <string name="keyboard_layout_label">ユーザーキーボード</string>
+    <string name="keyboard_layout_japanese">日本語</string>
+</resources>

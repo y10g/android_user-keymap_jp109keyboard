@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="info.toh.app.jp109keyboard"
+        >
+
+    <application
+            android:allowClearUserData="false"
+            android:label="@string/app_label"
+            >
+
+        <receiver android:name="info.toh.app.jp109keyboard.InputDeviceReceiver"
+                android:label="@string/keyboard_layout_label">
+            <intent-filter>
+                <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS" />
+            </intent-filter>
+            <meta-data android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS"
+                    android:resource="@xml/keyboard_layouts" />
+        </receiver>
+    </application>
+</manifest>

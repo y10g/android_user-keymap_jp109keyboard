@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Additonal Keymaps (JPN)</string>
+    <string name="keyboard_layout_label">User keyboard</string>
+    <string name="keyboard_layout_japanese">Japanese</string>
+</resources>
